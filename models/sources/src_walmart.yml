@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: raw
+    database: WALMART_BI
+    schema: RAW
+    tables:
+      - name: STORES
+      - name: FACT_WEATHER
+      - name: DEPARTMENT
